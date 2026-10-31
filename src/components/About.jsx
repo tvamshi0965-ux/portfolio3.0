@@ -82,10 +82,17 @@ const About = () => {
             <div className="p-8 rounded-2xl bg-white/[0.02] border border-white/10 backdrop-blur-xl relative overflow-hidden group hover:border-teal-500/30 transition-all duration-300">
               <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-2xl group-hover:bg-teal-500/20 transition-all duration-500" />
               
-              <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-teal-400" />
-                Build-First Software Developer
-              </h3>
+              <div className="flex items-center gap-5 mb-6">
+                <img
+                  src="/profile.jpg"
+                  alt="T. Vamshi"
+                  className="w-24 h-32 sm:w-28 sm:h-36 rounded-xl border border-teal-500/30 object-cover object-top shadow-[0_0_24px_rgba(20,184,166,0.12)]"
+                />
+                <h3 className="text-xl font-semibold text-white flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-teal-400 flex-shrink-0" />
+                  Build-First Software Developer
+                </h3>
+              </div>
 
               <p className="text-gray-300 leading-relaxed font-light text-base sm:text-lg">
                 I am a final-year Computer Science student specializing in full-stack web development and AI-integrated applications. With a <span className="text-teal-300 font-medium">build-first approach</span>, I have hands-on experience shipping complete, production-ready platforms — ranging from React-based web systems with live multi-language code execution to responsive portfolios.
